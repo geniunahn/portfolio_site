@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <!-- 제이쿼리 -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+    <!-- 풀스크린 CDN-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
+    <!-- 스와이퍼 CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- swiper.js -->
+    <script src="./js/swiper.js"></script>
+    <!-- main.css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- main.js-->
+    <script src="./js/main.js"></script>
+    <!-- 구글 폰트 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 시작 인사 화면 -->
+    <div class="open_intro">
+      <p class="open_line_height">HI</p>
+      <p class="open_line_height">WELCOME TO MY WEB SITE</p>
+      <p>WHO AM I?</p>
+    </div>
+    <!-- 헤더 -->
+    <header class="header">
+      <div class="max_width_wrap">
+        <nav class="nav">
+          <div class="nav_left">
+            <h1>UI/UX DESIGNER & DEVELOPER</h1>
+            <h1>AHN JUNG WON</h1>
+          </div>
+          <div class="nav_right">
+            <ul>
+              <li><p>ABOUT</p></li>
+              <li><p>WORKS</p></li>
+              <li><p>CONTACT</p></li>
+              <li><p>BLOG</p></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- 풀 페이지 박스 -->
+    <div id="fullpage">
+      <!-- 첫번째 페이지 (section1) -->
+      <div class="section first">
+        <div class="max_width_wrap">
+          <div class="first_wrap">
+            <div class="first_left">
+              <img src="./images/about_person.jpg" alt="person" />
+            </div>
+            <div class="first_right">
+              <h1>
+                FRONT-END DEVELOPER <br />
+                AHN JUNG WON
+              </h1>
+              <h2>프론트엔드 개발자 안정원</h2>
+              <p>
+                책임과 열정으로 소임을 다 하는 태도, 새로운 도전을 두려워하지
+                않는 마음, 프론트엔드 개발자 안정원입니다. 끊임없이 배우고
+                성장하는 것을 삶의 목표로 두고 있습니다. 신뢰할 수 있는 동료와
+                인재를 찾으신다면 제게 연락해주세요.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 두번째 페이지 (section2) -->
+      <div class="section">
+        <div class="max_width_wrap">
+          <div class="second_wrap">
+            <div class="second_left">
+              <h1>MY SKILLS</h1>
+              <h2>끊임없이 기술영역을 넓혀가고 있습니다.</h2>
+              <p>
+                피그마와 포토샵을 중심으로 아이콘 제작과 웹 사이트 시안을
+                제작하고 웹표준 언어로 시안을 구현할 수 있습니다. JS, jquery 로
+                다양한 이벤트를 만드는 것과 서버를 다루는 능력을 갖추고
+                있습니다. 팀 프로젝트와 개인 프로젝트는 깃허브로 진행했습니다.
+              </p>
+            </div>
+            <div class="second_right">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <!-- 첫번째 슬라이드 -->
+                  <div class="swiper-slide">
+                    <div class="skill_wrap">
+                      <ul>
+                        <li>
+                          <div class="left_icon_wrap">
+                            <p>HTML</p>
+                            <div class="icon">
+                              <img src="./images/skill_1.png" alt="icon" />
+                            </div>
+                          </div>
+                          <meter
+                            id="skill_score"
+                            min="0"
+                            max="100"
+                            value="90"
+                          ></meter>
+                          <label for="skill_score"
+                            ><span class="score_left">90</span
+                            ><span class="score_right">/100</span></label
+                          >
+                        </li>
+                        <li>
+                          <div class="left_icon_wrap">
+                            <p>CSS</p>
+                            <div class="icon">
+                              <img src="./images/skill_2.png" alt="icon" />
+                            </div>
+                          </div>
+                          <meter
+                            id="skill_score"
+                            value="90"
+                            min="0"
+                            max="100"
+                          ></meter>
+                          <label for="skill_score"
+                            ><span class="score_left">92</span
+                            ><span class="score_right">/100</span></label
+                          >
+                        </li>
+                        <li>
+                          <div class="left_icon_wrap">
+                            <p>Javascript</p>
+                            <div class="icon">
+                              <img src="./images/skill_3.png" alt="icon" />
+                            </div>
+                          </div>
+                          <meter
+                            id="skill_score"
+                            value="90"
+                            min="0"
+                            max="100"
+                          ></meter>
+                          <label for="skill_score"
+                            ><span class="score_left">85</span
+                            ><span class="score_right">/100</span></label
+                          >
+                        </li>
+                        <li>
+                          <div class="left_icon_wrap">
+                            <p>jQuery</p>
+                            <div class="icon">
+                              <img src="./images/skill_4.png" alt="icon" />
+                            </div>
+                          </div>
+                          <meter
+                            id="skill_score"
+                            value="90"
+                            min="0"
+                            max="100"
+                          ></meter>
+                          <label for="skill_score"
+                            ><span class="score_left">85</span
+                            ><span class="score_right">/100</span></label
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- 두 번째 슬라이드 -->
+                  <div class="swiper-slide">
+                    <div class="skill_wrap">
+                      <ul>
+                        <li>
+                          <div class="left_icon_wrap">
+                            <p>Photoshop</p>
+                            <div class="icon">
+                              <img src="./images/skill_4.png" alt="icon" />
+                            </div>
+                          </div>
+                          <meter
+                            id="skill_score"
+                            min="0"
+                            max="100"
+                            value="90"
+                          ></meter>
+                          <label for="skill_score"
+                            ><span class="score_left">82</span
+                            ><span class="score_right">/100</span></label
+                          >
+                        </li>
+                        <li>
+                          <div class="left_icon_wrap">
+                            <p>Pigma</p>
+                            <div class="icon">
+                              <img src="./images/skill_5.png" alt="icon" />
+                            </div>
+                          </div>
+                          <meter
+                            id="skill_score"
+                            value="90"
+                            min="0"
+                            max="100"
+                          ></meter>
+                          <label for="skill_score"
+                            ><span class="score_left">95</span
+                            ><span class="score_right">/100</span></label
+                          >
+                        </li>
+                        <li>
+                          <div class="left_icon_wrap">
+                            <p>Github</p>
+                            <div class="icon">
+                              <img src="./images/skill_6.png" alt="icon" />
+                            </div>
+                          </div>
+                          <meter
+                            id="skill_score"
+                            value="90"
+                            min="0"
+                            max="100"
+                          ></meter>
+                          <label for="skill_score"
+                            ><span class="score_left">84</span
+                            ><span class="score_right">/100</span></label
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- 하단 동그라미 -->
+                <div class="swiper-pagination"></div>
+
+                <!-- 화살표 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- 하단 스크롤-->
+                <!-- <div class="swiper-scrollbar"></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 세번째 페이지 (section3)  -->
+      <div class="section">
+        <div class="max_width_wrap">
+          <div class="third_wrap">
+            <div class="third_left">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <!-- 첫번째 슬라이드 -->
+                  <div class="swiper-slide">
+                    <div class="slide_text">
+                      <p>페라리 풀 스크린 페이지</p>
+                      <p>FERRARI FULLSCREEN PAGE</p>
+                    </div>
+                    <div class="slide_img">
+                      <img src="./images/work_1.jpg" alt="work_img" />
+                    </div>
+                  </div>
+                  <!-- 두번째 슬라이드 -->
+                  <div class="swiper-slide">
+                    <div class="slide_text">
+                      <p>디지털 시계</p>
+                      <p>DIGITAL CLOCK</p>
+                    </div>
+                    <div class="slide_img">
+                      <img src="./images/work_2.jpg" alt="work_img" />
+                    </div>
+                  </div>
+                  <!-- 세번째 슬라이드 -->
+                  <div class="swiper-slide">
+                    <div class="slide_text">
+                      <p>대웅 플라스틱 리디자인</p>
+                      <p>DAEWOONG PLASTIC RE-DESIGN</p>
+                    </div>
+                    <div class="slide_img">
+                      <img src="./images/work_3.jpg" alt="work_img" />
+                    </div>
+                  </div>
+                  <!-- 네번째 슬라이드 -->
+                  <div class="swiper-slide">
+                    <div class="slide_text">
+                      <p>한화호텔&리조트 리디자인</p>
+                      <p>HANWAH HOTELS&RESORTS RE-DESIGN</p>
+                    </div>
+                    <div class="slide_img">
+                      <img src="./images/work_4.jpg" alt="work_img" />
+                    </div>
+                  </div>
+                  <!-- 다섯번째 슬라이드 -->
+                  <div class="swiper-slide">
+                    <div class="slide_text">
+                      <p>날씨 어플</p>
+                      <p>WEATHER APP</p>
+                    </div>
+                    <div class="slide_img slide_weather">
+                      <img src="./images/work_5.jpg" alt="work_img" />
+                    </div>
+                  </div>
+                </div>
+                <!-- 하단 동그라미 -->
+                <div class="swiper-pagination"></div>
+                <!-- 화살표 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <!-- 하단 스크롤-->
+                <!-- <div class="swiper-scrollbar"></div> -->
+              </div>
+            </div>
+            <div class="third_right">
+              <h1>WORKS</h1>
+              <h2>프론트엔드 포트폴리오와 일러스트, SF만화를 만나보세요</h2>
+              <p>
+                풀 페이지 사이트, 웹 사이트 리디자인, 날씨 어플, 시계 어플 등
+                다양한 포트폴리오를 만나보세요. 포토샵으로 그린 일러스트와 SF
+                만화도 있습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 네번째 페이지 (section4) -->
+      <div class="section">
+        <div class="max_width_wrap">
+          <div class="fourth_wrap">
+            <div class="fourth_left">
+              <div class="fourth_form">
+                <h1>CONTACT ME</h1>
+                <h2>
+                  문의사항을 남겨주시면 <br />
+                  빠른 시일 내에 연락을 드리겠습니다.
+                </h2>
+                <form action="">
+                  <ul>
+                    <li>
+                      <label for="contact1">회사명</label>
+                      <input type="text" id="contact1" />
+                    </li>
+                    <li>
+                      <label for="contact2">부서</label>
+                      <input type="text" id="contact2" />
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <label for="contact3">성명</label>
+                      <input type="text" id="contact3" />
+                    </li>
+                    <li>
+                      <label for="contact4">직함</label>
+                      <input type="text" id="contact4" />
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <label for="contact5">연락처</label>
+                      <input type="tel" id="contact5" />
+                    </li>
+                    <li>
+                      <label for="contact6">이메일</label>
+                      <input type="email" id="contact6" size="5" />
+                    </li>
+                  </ul>
+                  <ul>
+                    <li class="last_li">
+                      <label for="contact7">내용</label>
+                      <textarea
+                        name="contact7"
+                        id="contact7"
+                        cols="30"
+                        rows="8"
+                      ></textarea>
+                    </li>
+                  </ul>
+                  <button>SEND</button>
+                </form>
+              </div>
+            </div>
+            <div class="fourth_right">
+              <div class="fourth_img">
+                <img src="./images/contact.jpg" alt="contact_img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 다섯번째 페이지 (section5) -->
+      <div class="section">
+        <div class="max_width_wrap">
+          <div class="fifth_wrap">
+            <div class="fifth_left">
+              <div class="fifth_img">
+                <img src="./images/blog.jpg" alt="blog_img" />
+              </div>
+            </div>
+            <div class="fifth_right">
+              <h1>WORKS</h1>
+              <h2>프론트엔드 포트폴리오와 일러스트, SF만화를 만나보세요</h2>
+              <p>
+                풀 페이지 사이트, 웹 사이트 리디자인, 날씨 어플, 시계 어플 등
+                다양한 포트폴리오를 만나보세요. 포토샵으로 그린 일러스트와 SF
+                만화도 있습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

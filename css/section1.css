@@ -1,0 +1,40 @@
+.first_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.first_left {
+  width: 40.526315%;
+  height: 77.777777%;
+}
+
+.first_left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.first_right {
+  width: 47.7105263%;
+}
+
+.first_right h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #000;
+}
+
+.first_right h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin: 20px 0 60px;
+}
+
+.first_right p {
+  font-size: 19px;
+  font-weight: 400;
+  color: #000;
+}

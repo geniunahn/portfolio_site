@@ -1,0 +1,24 @@
+.open_intro {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  display: none;
+}
+
+.open_intro {
+  font-size: 60px;
+  font-weight: 700;
+  color: #000;
+}
+
+.open_line_height {
+  margin: 0 0 70px 0;
+}
