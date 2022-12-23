@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>home</title>
+    <!-- 구글 폰트 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- 제이쿼리 -->
     <script
       src="https://code.jquery.com/jquery-3.6.2.min.js"
@@ -29,11 +34,6 @@
     <link rel="stylesheet" href="./css/main.css" />
     <!-- main.js-->
     <script src="./js/main.js"></script>
-    <!-- 구글 폰트 -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <!-- 시작 인사 화면 -->
@@ -47,15 +47,23 @@
       <div class="max_width_wrap">
         <nav class="nav">
           <div class="nav_left">
-            <h1>UI/UX DESIGNER & DEVELOPER</h1>
-            <h1>AHN JUNG WON</h1>
+            <h1><a href="#">UI/UX DESIGNER & DEVELOPER</a></h1>
+            <h1><a href="#">AHN JUNG WON</a></h1>
           </div>
           <div class="nav_right">
             <ul>
-              <li><p>ABOUT</p></li>
-              <li><p>WORKS</p></li>
-              <li><p>CONTACT</p></li>
-              <li><p>BLOG</p></li>
+              <li>
+                <p><a href="#">ABOUT</a></p>
+              </li>
+              <li>
+                <p><a href="#">WORKS</a></p>
+              </li>
+              <li>
+                <p><a href="#">CONTACT</a></p>
+              </li>
+              <li>
+                <p><a href="#">BLOG</a></p>
+              </li>
             </ul>
           </div>
         </nav>
@@ -66,7 +74,7 @@
       <!-- 첫번째 페이지 (section1) -->
       <div class="section first">
         <div class="max_width_wrap">
-          <div class="first_wrap">
+          <div id="first_section" class="first_wrap">
             <div class="first_left">
               <img src="./images/about_person.jpg" alt="person" />
             </div>
@@ -259,10 +267,11 @@
         </div>
       </div>
       <!-- 세번째 페이지 (section3)  -->
-      <div class="section">
+      <div class="section third_section">
         <div class="max_width_wrap">
           <div class="third_wrap">
             <div class="third_left">
+              <!-- swiper -->
               <div class="swiper">
                 <div class="swiper-wrapper">
                   <!-- 첫번째 슬라이드 -->
@@ -338,7 +347,7 @@
         </div>
       </div>
       <!-- 네번째 페이지 (section4) -->
-      <div class="section">
+      <div class="section fourth_section">
         <div class="max_width_wrap">
           <div class="fourth_wrap">
             <div class="fourth_left">
@@ -352,41 +361,81 @@
                   <ul>
                     <li>
                       <label for="contact1">회사명</label>
-                      <input type="text" id="contact1" />
+                      <input
+                        type="text"
+                        id="contact1"
+                        name="contact1"
+                        placeholder="회사명을 적어주세요."
+                        required
+                      />
                     </li>
                     <li>
                       <label for="contact2">부서</label>
-                      <input type="text" id="contact2" />
+                      <input
+                        type="text"
+                        id="contact2"
+                        name="contact2"
+                        placeholder="부서명을 적어주세요."
+                        required
+                      />
                     </li>
                   </ul>
                   <ul>
                     <li>
                       <label for="contact3">성명</label>
-                      <input type="text" id="contact3" />
+                      <input
+                        type="text"
+                        id="contact3"
+                        name="contact3"
+                        placeholder="성함을 적어주세요."
+                        required
+                      />
                     </li>
                     <li>
                       <label for="contact4">직함</label>
-                      <input type="text" id="contact4" />
+                      <input
+                        type="text"
+                        id="contact4"
+                        name="contact4"
+                        placeholder="직함을 적어주세요."
+                        required
+                      />
                     </li>
                   </ul>
                   <ul>
                     <li>
                       <label for="contact5">연락처</label>
-                      <input type="tel" id="contact5" />
+                      <input
+                        type="tel"
+                        id="contact5"
+                        name="contact5"
+                        placeholder="연락처를 적어주세요."
+                        required
+                      />
                     </li>
                     <li>
                       <label for="contact6">이메일</label>
-                      <input type="email" id="contact6" size="5" />
+                      <input
+                        type="email"
+                        id="contact6"
+                        name="contact6"
+                        placeholder="이메일을 적어주세요."
+                        required
+                      />
                     </li>
                   </ul>
                   <ul>
                     <li class="last_li">
                       <label for="contact7">내용</label>
                       <textarea
-                        name="contact7"
+                        type="text"
                         id="contact7"
-                        cols="30"
+                        name="contact7"
                         rows="8"
+                        cols="30"
+                        placeholder="용무를 작성해 주세요."
+                        required
+                        maxlength="255"
                       ></textarea>
                     </li>
                   </ul>

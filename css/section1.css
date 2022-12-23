@@ -38,3 +38,22 @@
   font-weight: 400;
   color: #000;
 }
+
+/* 이미지 이벤트 */
+
+.fp-viewing-0 .first_left {
+  overflow: hidden;
+}
+
+.fp-viewing-0 .first_left img {
+  animation: bn_opening 2s forwards;
+}
+
+@keyframes bn_opening {
+  from {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}

@@ -1,3 +1,7 @@
+.third_section {
+  background-color: #000;
+}
+
 .third_wrap {
   height: 100%;
   display: flex;
@@ -29,13 +33,13 @@
 .third_wrap .slide_text p:first-child {
   font-size: 30px;
   font-weight: 700;
-  color: #000;
+  color: #fff;
 }
 
 .third_wrap .slide_text p:last-child {
   font-size: 20px;
   font-weight: 700;
-  color: #000;
+  color: #fff;
   margin: 0 0 20px 0;
 }
 
@@ -60,20 +64,34 @@
 .third_right h1 {
   font-size: 60px;
   font-weight: 700;
-  color: #000;
+  color: #fff;
 }
 
 .third_right h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #000;
+  color: #fff;
   margin: 20px 0 60px;
 }
 
 .third_right p {
   font-size: 19px;
   font-weight: 400;
-  color: #000;
+  color: #fff;
+}
+
+/* 이미지 호버 이벤트 */
+
+.slide_img {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.slide_img img {
+  transition: 1.5s;
+}
+.slide_img:hover img {
+  transform: scale(1.1);
 }
 
 /* 스위퍼 스타일 */
@@ -83,7 +101,7 @@
 }
 
 .third_wrap .swiper-pagination span {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .third_wrap .swiper-button-prev {
@@ -91,7 +109,7 @@
   top: 97%;
   left: 30%;
   transform: translate(-50%, -50%);
-  color: #000;
+  color: #fff;
 }
 
 .third_wrap .swiper-button-next {
@@ -99,9 +117,9 @@
   top: 97%;
   left: 70%;
   transform: translate(-50%, -50%);
-  color: #000;
+  color: #fff;
 }
 
 .third_wrap .swiper-button-next {
-  color: #000;
+  color: #fff;
 }

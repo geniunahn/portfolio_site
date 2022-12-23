@@ -45,3 +45,17 @@
   font-weight: 400;
   color: #000;
 }
+
+/* 이미지 호버 이벤트 */
+
+.fifth_img {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.fifth_img img {
+  transition: 1.5s;
+}
+.fifth_img:hover img {
+  transform: scale(1.1);
+}

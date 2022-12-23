@@ -1,3 +1,4 @@
+// 풀 페이지 실행
 $(document).ready(function () {
   // fullpage customization
   $("#fullpage").fullpage({
@@ -8,3 +9,11 @@ $(document).ready(function () {
     controlArrows: false,
   });
 });
+
+// 화면 이동
+
+// $(function () {
+//   $(".header").on("click", function () {
+//     $("#first_section").focus();
+//   });
+// });

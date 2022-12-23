@@ -24,7 +24,6 @@
 .nav p {
   font-size: 16px;
   font-weight: 700;
-  color: #000;
 }
 
 .nav h1 {
@@ -32,4 +31,35 @@
 }
 .nav p {
   margin: 0 0 0 60px;
+}
+
+/* 1 ~ 2, 5 번째 section에서의 header */
+
+.fp-viewing-0 header,
+.fp-viewing-1 header,
+.fp-viewing-4 header {
+  background-color: #fff;
+}
+
+.fp-viewing-0 header p a,
+.fp-viewing-0 header h1 a,
+.fp-viewing-1 header p a,
+.fp-viewing-1 header h1 a,
+.fp-viewing-4 header p a,
+.fp-viewing-4 header h1 a {
+  color: #000;
+}
+
+/* 3 ~ 4 번째 section에서의 header */
+
+.fp-viewing-2 header,
+.fp-viewing-3 header {
+  background-color: #000;
+}
+
+.fp-viewing-2 header p a,
+.fp-viewing-3 header p a,
+.fp-viewing-2 header h1 a,
+.fp-viewing-3 header h1 a {
+  color: #fff;
 }
