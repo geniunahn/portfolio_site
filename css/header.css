@@ -63,3 +63,37 @@
 .fp-viewing-3 header h1 a {
   color: #fff;
 }
+
+/* opening 애니메이션 */
+
+.nav_left {
+  opacity: 0;
+  animation: headerOpening_1 1s forwards;
+  animation-delay: 5s;
+}
+
+@keyframes headerOpening_1 {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.nav_right {
+  opacity: 0;
+  animation: headerOpening_2 1s forwards;
+  animation-delay: 6s;
+}
+
+@keyframes headerOpening_2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

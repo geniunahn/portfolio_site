@@ -57,3 +57,39 @@
     transform: scale(1);
   }
 }
+
+/* opening 애니메이션 */
+
+.first_left {
+  opacity: 0;
+  animation: firstOpening_1 1.5s forwards;
+  animation-delay: 7s;
+}
+
+@keyframes firstOpening_1 {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.first_right {
+  opacity: 0;
+  animation: firstOpening_2 1.5s forwards;
+  animation-delay: 7s;
+}
+
+@keyframes firstOpening_2 {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
