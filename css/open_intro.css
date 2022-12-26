@@ -11,8 +11,8 @@
   top: 0;
   z-index: 999;
   animation: oepning 1s forwards;
-  animation-delay: 4s;
-  /* display: none; */
+  animation-delay: 4.5s;
+  display: none;
 }
 
 @keyframes oepning {
@@ -29,6 +29,8 @@
   font-size: 60px;
   font-weight: 700;
   color: #fff;
+  letter-spacing: 5px;
+  word-spacing: 10px;
 }
 
 .open_line_height {
