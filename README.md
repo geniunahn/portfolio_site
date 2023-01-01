@@ -1,7 +1,7 @@
 # 포트폴리오 사이트 프로젝트
 - 제작자 : 안정원
 - 깃허브 url : https://github.com/geniunahn/portfolio_site
-- 프로젝트 url :https://geniunahn.github.io/portfolio_site/
+- 프로젝트 url : https://geniunahn.github.io/portfolio_site/
 
 # 제작 상황 및 목표
 - 제작 상황 : HTML, CSS, JS, jQuery를 익힐 후 nodejs, ejs, sqlite, React를 배우는 단계에서 현재까지 완성한 프로젝트를 소개하는 포트폴이오 사이트를 완성해야 하는 상황. 프로젝트 이전부터 필자는 풀페이지 js를 활용한 슬리이드 연출에 관심이 많았다. 풀페이지 js가 가지는 간단 명료함과 높은 가독성은 꼭 도전하고 싶었던 디자인이기 때문에 기획 단계에서부터 포트폴리오 사이트의 디자인은 풀페이지 슬라이드로 초점이 맞춰져 있었다. 무료로 공유되고 있는 풀페이지 js의 기본적인 소스와 cdn을 확보한 후 곧장 포트폴리오 사이트의 시안 작업으로 돌입했다. 
