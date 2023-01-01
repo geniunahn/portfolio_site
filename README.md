@@ -8,7 +8,7 @@
 - 제작 목표 : 화려함보다는 심플함이 돋보이는 디자인을 선택하여 핵심적인 정보를 군더더기 없이 전달하는 것이 목표다. 어설픈 기술을 이용한 화려함은 빈약해 보이고 가벼워 보일 가능성이 크다고 생각했다. 그래서 절제된 단순함을 선택하여 단점이 적으면서 전달력이 강한 디자인을 구현하고자 노력했다
 
 # 디자인 및 적용기술 설명
-![1](https://user-images.githubusercontent.com/106502672/210173443-f848a575-a4a2-4ef3-9697-a7c19706a058.jpg)
+![1](https://user-images.githubusercontent.com/106502672/210177317-715044b3-f20f-471b-be0f-33a932544727.jpg)
 ![2](https://user-images.githubusercontent.com/106502672/210173445-3412cb93-f123-433c-ab4f-973f15a9146e.jpg)
 ![3](https://user-images.githubusercontent.com/106502672/210173448-96395bad-c696-4016-a9f3-3bb181a88b0a.jpg)
 ![4](https://user-images.githubusercontent.com/106502672/210173451-056ea11a-dac2-4db9-bfa0-d94a69041cfe.jpg)
