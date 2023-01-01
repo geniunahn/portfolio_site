@@ -1,3 +1,5 @@
+/* WORKS */
+
 .third_section {
   background-color: #000;
 }
@@ -9,13 +11,13 @@
 }
 
 .third_left {
-  width: 49.01315789%;
+  width: 45%;
   display: flex;
   align-items: center;
 }
 
 .third_right {
-  width: 39.6052631%;
+  width: 45%;
   height: 100%;
 }
 
@@ -78,6 +80,7 @@
   font-size: 19px;
   font-weight: 400;
   color: #fff;
+  line-height: 1.8rem;
 }
 
 /* 이미지 호버 이벤트 */
@@ -91,7 +94,7 @@
   transition: 1.5s;
 }
 .slide_img:hover img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 /* 스위퍼 스타일 */

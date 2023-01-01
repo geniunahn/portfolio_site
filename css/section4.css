@@ -1,3 +1,5 @@
+/* CONTACT ME */
+
 .fourth_section {
   background-color: #000;
 }
@@ -10,11 +12,11 @@
 }
 
 .fourth_left {
-  width: 42.5%;
+  width: 45%;
 }
 
 .fourth_right {
-  width: 49.01315789%;
+  width: 45%;
 }
 
 .fourth_form h1 {
@@ -27,75 +29,37 @@
   font-size: 21px;
   font-weight: 500;
   color: #fff;
-  margin: 20px 0 44px 0;
+  margin: 20px 0 60px 0;
 }
 
-.fourth_form form {
-  border-top: 1px solid #fff;
-  padding: 15px 0 0 0;
-}
+/* 표 */
 
-.fourth_form form ul {
-  display: flex;
+.fourth_form ul {
   width: 100%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.fourth_form li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+  padding: 20px;
+}
+
+.fourth_form li p:nth-child(1) {
   flex: 1;
 }
 
-.fourth_form form li {
-  display: flex;
-  width: 100%;
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
-  margin: 0 0 20px 0;
-  padding: 10px;
+.fourth_form li p:nth-child(2) {
+  flex: 1;
 }
 
-.fourth_form label {
+.fourth_form li p {
+  color: #fff;
   font-size: 16px;
   font-weight: 400;
-  color: #fff;
-  width: 20%;
-}
-
-.fourth_form input {
-  width: 80%;
-  border-style: none;
-  outline: 0;
-}
-
-.fourth_form .last_li label {
-  width: 10%;
-}
-
-.fourth_form .last_li textarea {
-  width: 100%;
-  outline: 0;
-  border: 0;
-  resize: none;
-}
-
-input,
-textarea {
-  padding: 10px;
-  background-color: #000;
-  color: #fff;
-}
-
-/* 버튼 호버 이벤트 */
-
-.fourth_form button {
-  width: 170px;
-  height: 50px;
-  border: 1px solid #fff;
-  background-color: #000;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 700;
-  transition: 0.5s;
-}
-
-.fourth_form button:hover {
-  background-color: #fff;
-  color: #000;
 }
 
 /* 이미지 이벤트 */

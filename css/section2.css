@@ -1,3 +1,5 @@
+/* MY SKILLS */
+
 .second_wrap {
   display: flex;
   align-items: center;
@@ -7,7 +9,7 @@
 
 /* left */
 .second_left {
-  width: 44.01315789%;
+  width: 45%;
 }
 
 .second_left h1 {
@@ -32,7 +34,7 @@
 /* right */
 
 .second_right {
-  width: 49.01315789%;
+  width: 45%;
   height: 100%;
 }
 
@@ -94,6 +96,7 @@
   font-weight: 500;
   color: #000;
   margin: 0 0 5px 0;
+  line-height: 1.8rem;
 }
 
 .second_wrap .icon {
@@ -105,7 +108,7 @@
 }
 
 .second_wrap .score_left {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 700;
   color: #000;
   opacity: 0;
@@ -130,7 +133,7 @@
 .second_wrap .swiper-button-prev {
   position: absolute;
   top: 97%;
-  left: 40%;
+  left: 30%;
   transform: translate(-50%, -50%);
   color: #000;
 }
@@ -138,7 +141,7 @@
 .second_wrap .swiper-button-next {
   position: absolute;
   top: 97%;
-  left: 60%;
+  left: 70%;
   transform: translate(-50%, -50%);
   color: #000;
 }
@@ -255,11 +258,11 @@
 }
 
 .fp-viewing-1 .swiper-slide-active .graph_5 {
-  background-color: #a8daff;
+  background-color: #ffb494;
 }
 
 .fp-viewing-1 .swiper-slide-active .graph_5 span {
-  background: #31a8ff;
+  background: #e44d26;
   animation: stack_5 2s forwards;
 }
 
@@ -268,15 +271,16 @@
     width: 0;
   }
   100% {
-    width: 85%;
+    width: 75%;
   }
 }
+
 .fp-viewing-1 .swiper-slide-active .graph_6 {
-  background-color: #aaffde;
+  background-color: #c0ecff;
 }
 
 .fp-viewing-1 .swiper-slide-active .graph_6 span {
-  background: #0acf83;
+  background: #29a8e0;
   animation: stack_6 2s forwards;
 }
 
@@ -285,15 +289,16 @@
     width: 0;
   }
   100% {
-    width: 85%;
+    width: 74%;
   }
 }
+
 .fp-viewing-1 .swiper-slide-active .graph_7 {
-  background-color: #8d8d8d;
+  background-color: #c1ee76;
 }
 
 .fp-viewing-1 .swiper-slide-active .graph_7 span {
-  background: #1c1c1c;
+  background: #63a814;
   animation: stack_7 2s forwards;
 }
 
@@ -302,7 +307,76 @@
     width: 0;
   }
   100% {
-    width: 85%;
+    width: 72%;
+  }
+}
+.fp-viewing-1 .swiper-slide-active .graph_8 {
+  background-color: #9ad5ff;
+}
+
+.fp-viewing-1 .swiper-slide-active .graph_8 span {
+  background: #0868ac;
+  animation: stack_8 2s forwards;
+}
+
+@keyframes stack_8 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 74%;
+  }
+}
+
+.fp-viewing-1 .swiper-slide-active .graph_9 {
+  background-color: #a8daff;
+}
+
+.fp-viewing-1 .swiper-slide-active .graph_9 span {
+  background: #31a8ff;
+  animation: stack_9 2s forwards;
+}
+
+@keyframes stack_9 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 82%;
+  }
+}
+.fp-viewing-1 .swiper-slide-active .graph_10 {
+  background-color: #aaffde;
+}
+
+.fp-viewing-1 .swiper-slide-active .graph_10 span {
+  background: #0acf83;
+  animation: stack_10 2s forwards;
+}
+
+@keyframes stack_10 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+.fp-viewing-1 .swiper-slide-active .graph_11 {
+  background-color: #8d8d8d;
+}
+
+.fp-viewing-1 .swiper-slide-active .graph_11 span {
+  background: #1c1c1c;
+  animation: stack_11 2s forwards;
+}
+
+@keyframes stack_11 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 84%;
   }
 }
 

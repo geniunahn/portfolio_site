@@ -1,3 +1,5 @@
+/* ABOUT */
+
 .first_wrap {
   display: flex;
   align-items: center;
@@ -6,7 +8,7 @@
 }
 
 .first_left {
-  width: 40.526315%;
+  width: 45%;
   height: 77.777777%;
 }
 
@@ -14,16 +16,25 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center top;
 }
 
 .first_right {
-  width: 47.7105263%;
+  width: 45%;
 }
 
-.first_right h1 {
+.first_right h1:nth-child(1) {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  word-spacing: 30px;
+}
+
+.first_right h1:nth-child(2) {
   font-size: 60px;
   font-weight: 700;
   color: #000;
+  word-spacing: 20px;
 }
 
 .first_right h2 {
@@ -37,6 +48,7 @@
   font-size: 19px;
   font-weight: 400;
   color: #000;
+  line-height: 1.8rem;
 }
 
 /* 이미지 이벤트 */
@@ -63,7 +75,7 @@
 .first_left {
   opacity: 0;
   animation: firstOpening_1 1.5s forwards;
-  animation-delay: 6.5s;
+  animation-delay: 7.3s;
 }
 
 @keyframes firstOpening_1 {
@@ -80,7 +92,7 @@
 .first_right {
   opacity: 0;
   animation: firstOpening_2 1.5s forwards;
-  animation-delay: 6.5s;
+  animation-delay: 7.3s;
 }
 
 @keyframes firstOpening_2 {
