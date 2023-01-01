@@ -1,5 +1,6 @@
 # 포트폴리오 사이트 프로젝트
 - 제작자 : 안정원
+- 깃허브 url : https://github.com/geniunahn/portfolio_site
 - 프로젝트 url :https://geniunahn.github.io/portfolio_site/
 
 # 제작 목표
