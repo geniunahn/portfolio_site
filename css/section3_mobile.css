@@ -14,9 +14,8 @@
   .third_left {
     display: flex;
     align-items: flex-start;
-    height: 55%;
+    height: 65%;
     order: 1;
-    padding: 40px 0 0 0;
   }
 
   .third_wrap .swiper-slide {
@@ -30,14 +29,14 @@
   }
 
   .third_wrap .slide_text p:first-child {
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 400;
     color: #fff;
   }
 
   .third_wrap .slide_text p:last-child {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     color: #fff;
     margin: 0 0 20px 0;
   }
@@ -55,7 +54,7 @@
   }
 
   .third_right {
-    height: 45%;
+    height: 35%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -74,7 +73,7 @@
   }
 
   .third_right h2 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: #fff;
     margin: 20px 0 30px;
@@ -85,6 +84,7 @@
     font-weight: 400;
     color: #fff;
     line-height: 1.8rem;
+    display: none;
   }
 
   /* 이미지 호버 이벤트 */
