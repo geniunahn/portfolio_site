@@ -1,17 +1,14 @@
-@media only screen and (min-width: 769px) {
+@media only screen and (max-width: 768px) {
   .header {
     top: 0px;
     width: 100%;
-    height: 83px;
+    height: 100px;
     position: fixed;
     z-index: 99;
     transition: 0.3s ease-in-out;
   }
 
   .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 100%;
   }
 
@@ -19,19 +16,17 @@
   .nav_right ul {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav_left {
+    padding: 20px 0;
   }
 
   .nav h1,
   .nav p {
-    font-size: 16px;
-    font-weight: 700;
-  }
-
-  .nav h1 {
-    margin: 0 60px 0 0;
-  }
-  .nav p {
-    margin: 0 0 0 60px;
+    font-size: 14px;
+    font-weight: 500;
   }
 
   /* 1 ~ 2, 5 번째 section에서의 header */
@@ -67,7 +62,7 @@
 
   /* opening 애니메이션 */
 
-  .nav_left {
+  /* .nav_left {
     opacity: 0;
     animation: headerOpening_1 1s forwards;
     animation-delay: 5.7s;
@@ -97,5 +92,5 @@
     to {
       opacity: 1;
     }
-  }
+  } */
 }

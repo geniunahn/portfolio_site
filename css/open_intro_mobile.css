@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) {
+@media only screen and (max-width: 768px) {
   .open_intro {
     width: 100vw;
     height: 100vh;

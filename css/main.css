@@ -1,11 +1,18 @@
 @import url(reset.css);
 @import url(header.css);
+@import url(header_mobile.css);
 @import url(open_intro.css);
+@import url(open_intro_mobile.css);
 @import url(section1.css);
+@import url(section1_mobile.css);
 @import url(section2.css);
+@import url(section2_mobile.css);
 @import url(section3.css);
+@import url(section3_mobile.css);
 @import url(section4.css);
+@import url(section4_mobile.css);
 @import url(section5.css);
+@import url(section5_mobile.css);
 
 body {
   font-family: "Noto Sans KR", sans-serif;
@@ -15,5 +22,5 @@ body {
   max-width: 1520px;
   margin: 0 auto;
   height: 100%;
-  padding: 20px;
+  padding: 0 20px;
 }

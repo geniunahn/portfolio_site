@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) {
+@media only screen and (max-width: 768px) {
   /* WORKS */
 
   .third_section {
@@ -8,25 +8,21 @@
   .third_wrap {
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
   }
 
   .third_left {
-    width: 45%;
     display: flex;
-    align-items: center;
-  }
-
-  .third_right {
-    width: 45%;
-    height: 100%;
+    align-items: flex-start;
+    height: 55%;
+    order: 1;
+    padding: 40px 0 0 0;
   }
 
   .third_wrap .swiper-slide {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
   }
 
   .third_wrap .slide_text {
@@ -34,13 +30,13 @@
   }
 
   .third_wrap .slide_text p:first-child {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 700;
     color: #fff;
   }
 
   .third_wrap .slide_text p:last-child {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     color: #fff;
     margin: 0 0 20px 0;
@@ -48,8 +44,8 @@
 
   .third_wrap .slide_img {
     width: 100%;
-    height: 420px;
-    margin: 0 0 100px 0;
+    height: 220px;
+    margin: 0 0 110px 0;
   }
 
   .third_wrap .slide_img img {
@@ -59,26 +55,34 @@
   }
 
   .third_right {
+    height: 45%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+    /* padding: 110px 0 0 0; */
+  }
+
+  .third_right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 
   .third_right h1 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     color: #fff;
   }
 
   .third_right h2 {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 500;
     color: #fff;
-    margin: 20px 0 60px;
+    margin: 20px 0 30px;
   }
 
   .third_right p {
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 400;
     color: #fff;
     line-height: 1.8rem;
@@ -101,7 +105,7 @@
   /* 스위퍼 스타일 */
 
   .third_wrap .swiper-pagination {
-    margin: 0 0 23px 0;
+    margin: 0 0 15px 0;
   }
 
   .third_wrap .swiper-pagination span {
