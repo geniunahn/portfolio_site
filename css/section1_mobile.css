@@ -38,7 +38,6 @@
     font-weight: 700;
     color: #000;
     word-spacing: 10px;
-    margin: 10px 0 0 0;
   }
 
   .first_right h2 {
@@ -76,7 +75,7 @@
 
   /* opening 애니메이션 */
 
-  /* .first_left {
+  .first_left {
     opacity: 0;
     animation: firstOpening_1 1.5s forwards;
     animation-delay: 7.3s;
@@ -108,5 +107,5 @@
       opacity: 1;
       transform: translateX(0);
     }
-  } */
+  }
 }

@@ -13,7 +13,9 @@
     z-index: 999;
     animation: oepning 1s forwards;
     animation-delay: 4.5s;
-    display: none;
+    text-align: center;
+    padding: 0 20px;
+    /* display: none; */
   }
 
   @keyframes oepning {
@@ -27,7 +29,7 @@
   }
 
   .open_intro {
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 700;
     color: #fff;
     letter-spacing: 5px;

@@ -62,7 +62,7 @@
 
   /* opening 애니메이션 */
 
-  /* .nav_left {
+  .nav_left {
     opacity: 0;
     animation: headerOpening_1 1s forwards;
     animation-delay: 5.7s;
@@ -92,5 +92,5 @@
     to {
       opacity: 1;
     }
-  } */
+  }
 }

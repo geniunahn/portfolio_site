@@ -13,7 +13,7 @@
     z-index: 999;
     animation: oepning 1s forwards;
     animation-delay: 4.5s;
-    display: none;
+    /* display: none; */
   }
 
   @keyframes oepning {
