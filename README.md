@@ -9,7 +9,7 @@
 
 # 디자인 및 적용기술 설명
 ![1](https://user-images.githubusercontent.com/106502672/210177317-715044b3-f20f-471b-be0f-33a932544727.jpg)
-![2](https://user-images.githubusercontent.com/106502672/210173445-3412cb93-f123-433c-ab4f-973f15a9146e.jpg)
+![2](https://user-images.githubusercontent.com/106502672/210350451-6183e986-86f0-4fda-a588-3a12b196a225.jpg)
 ![3](https://user-images.githubusercontent.com/106502672/210173448-96395bad-c696-4016-a9f3-3bb181a88b0a.jpg)
 ![4](https://user-images.githubusercontent.com/106502672/210173451-056ea11a-dac2-4db9-bfa0-d94a69041cfe.jpg)
 ![5](https://user-images.githubusercontent.com/106502672/210173454-9f72a18f-f75b-4df8-a6fb-85469c73f24b.jpg)
