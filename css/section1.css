@@ -10,14 +10,15 @@
 
   .first_left {
     width: 45%;
-    height: 77.777777%;
+    height: 78%;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .first_left img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: center top;
+    object-fit: contain;
   }
 
   .first_right {
