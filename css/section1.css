@@ -75,7 +75,7 @@
   .first_left {
     opacity: 0;
     animation: firstOpening_1 1.5s forwards;
-    animation-delay: 7.3s;
+    animation-delay: 6.3s;
   }
 
   @keyframes firstOpening_1 {
@@ -92,7 +92,7 @@
   .first_right {
     opacity: 0;
     animation: firstOpening_2 1.5s forwards;
-    animation-delay: 7.3s;
+    animation-delay: 6.3s;
   }
 
   @keyframes firstOpening_2 {

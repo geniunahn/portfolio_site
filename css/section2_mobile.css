@@ -39,59 +39,25 @@
   .second_right {
     height: 65%;
     display: flex;
-    align-items: flex-start;
-  }
-
-  .second_wrap .swiper {
-    height: 100%;
-  }
-
-  .second_wrap .skill_wrap,
-  .second_wrap .skill_wrap ul {
-    height: 100%;
-  }
-
-  .second_wrap .skill_wrap ul {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .second_wrap .skill_wrap li {
-    width: 100%;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 10px 0;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+
+  .second_right .skill_line {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
   }
 
   .second_wrap .left_icon_wrap {
     text-align: center;
-    flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .graph {
-    flex: 5.5;
-    height: 7px;
-    border-radius: 10px;
-  }
-
-  .graph span {
-    display: block;
-    height: 7px;
-    border-radius: 10px;
-    box-sizing: border-box;
-  }
-
-  .skill_score {
-    flex: 2.5;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin: 0 0 15px 0;
+    margin: 20px;
   }
 
   .second_wrap .left_icon_wrap p {

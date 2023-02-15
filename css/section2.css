@@ -37,59 +37,23 @@
   .second_right {
     width: 45%;
     height: 100%;
-  }
-
-  .second_wrap .swiper {
-    height: 100%;
-  }
-
-  .second_wrap .skill_wrap,
-  .second_wrap .skill_wrap ul {
-    height: 100%;
-  }
-
-  .second_wrap .skill_wrap ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .second_wrap .skill_wrap li {
-    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 40px 0;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .second_right .skill_line {
+    display: flex;
   }
 
   .second_wrap .left_icon_wrap {
     text-align: center;
-    flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .graph {
-    flex: 5.5;
-    height: 10px;
-    border-radius: 10px;
-  }
-
-  .graph span {
-    display: block;
-    height: 10px;
-    border-radius: 10px;
-    box-sizing: border-box;
-  }
-
-  .skill_score {
-    flex: 2.5;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin: 0 0 15px 0;
+    margin: 30px;
   }
 
   .second_wrap .left_icon_wrap p {
@@ -118,36 +82,6 @@
   .second_wrap .score_right {
     font-size: 30px;
     font-weight: 700;
-    color: #000;
-  }
-
-  /* 스위퍼 스타일 */
-
-  .second_wrap .swiper-pagination {
-    margin: 0 0 32px 0;
-  }
-
-  .second_wrap .swiper-pagination span {
-    background-color: #000;
-  }
-
-  .second_wrap .swiper-button-prev {
-    position: absolute;
-    top: 97%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    color: #000;
-  }
-
-  .second_wrap .swiper-button-next {
-    position: absolute;
-    top: 97%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    color: #000;
-  }
-
-  .second_wrap .swiper-button-next {
     color: #000;
   }
 
@@ -180,219 +114,6 @@
       transform: translateX(50%);
     }
     to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-
-  /* 그래프 애니메이션 */
-
-  .fp-viewing-1 .swiper-slide-active .graph_1 {
-    background-color: #ffb494;
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_1 span {
-    background: #e44d26;
-    animation: stack_1 2s forwards;
-  }
-
-  @keyframes stack_1 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 90%;
-    }
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_2 {
-    background-color: #c0ecff;
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_2 span {
-    background: #29a8e0;
-    animation: stack_2 2s forwards;
-  }
-
-  @keyframes stack_2 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 92%;
-    }
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_3 {
-    background-color: #c1ee76;
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_3 span {
-    background: #63a814;
-    animation: stack_3 2s forwards;
-  }
-
-  @keyframes stack_3 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 85%;
-    }
-  }
-  .fp-viewing-1 .swiper-slide-active .graph_4 {
-    background-color: #9ad5ff;
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_4 span {
-    background: #0868ac;
-    animation: stack_4 2s forwards;
-  }
-
-  @keyframes stack_4 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 85%;
-    }
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_5 {
-    background-color: #afe4a4;
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_5 span {
-    background: #539e43;
-    animation: stack_5 2s forwards;
-  }
-
-  @keyframes stack_5 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 75%;
-    }
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_6 {
-    background-color: #c0ecff;
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_6 span {
-    background: #61d9fb;
-    animation: stack_6 2s forwards;
-  }
-
-  @keyframes stack_6 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 74%;
-    }
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_7 {
-    background-color: #ffd0e2;
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_7 span {
-    background: #a81e51;
-    animation: stack_7 2s forwards;
-  }
-
-  @keyframes stack_7 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 72%;
-    }
-  }
-  .fp-viewing-1 .swiper-slide-active .graph_8 {
-    background-color: #9ad5ff;
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_8 span {
-    background: #0f80cc;
-    animation: stack_8 2s forwards;
-  }
-
-  @keyframes stack_8 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 74%;
-    }
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_9 {
-    background-color: #a8daff;
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_9 span {
-    background: #31a8ff;
-    animation: stack_9 2s forwards;
-  }
-
-  @keyframes stack_9 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 82%;
-    }
-  }
-  .fp-viewing-1 .swiper-slide-active .graph_10 {
-    background-color: #aaffde;
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_10 span {
-    background: #0acf83;
-    animation: stack_10 2s forwards;
-  }
-
-  @keyframes stack_10 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 95%;
-    }
-  }
-  .fp-viewing-1 .swiper-slide-active .graph_11 {
-    background-color: #8d8d8d;
-  }
-
-  .fp-viewing-1 .swiper-slide-active .graph_11 span {
-    background: #1c1c1c;
-    animation: stack_11 2s forwards;
-  }
-
-  @keyframes stack_11 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 84%;
-    }
-  }
-
-  /* 스코어 애니메이션 */
-  .fp-viewing-1 .swiper-slide-active .score_left {
-    animation: score 1s forwards;
-    animation-delay: 2s;
-  }
-
-  @keyframes score {
-    0% {
-      opacity: 0;
-      transform: translateX(-50%);
-    }
-    100% {
       opacity: 1;
       transform: translateX(0);
     }

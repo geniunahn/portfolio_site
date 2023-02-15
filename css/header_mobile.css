@@ -65,7 +65,7 @@
   .nav_left {
     opacity: 0;
     animation: headerOpening_1 1s forwards;
-    animation-delay: 5.7s;
+    animation-delay: 4.7s;
   }
 
   @keyframes headerOpening_1 {
@@ -82,7 +82,7 @@
   .nav_right {
     opacity: 0;
     animation: headerOpening_2 1s forwards;
-    animation-delay: 6.7s;
+    animation-delay: 5.7s;
   }
 
   @keyframes headerOpening_2 {
